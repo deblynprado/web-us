@@ -9,6 +9,7 @@
 
     if ( file_exists( $login ) ) :
       include $login;
+      include "report.php";
   else :
   endif;
   ?>
